@@ -1,7 +1,6 @@
 package main
 
-type Application struct {
-}
+type Application struct{}
 
 func (a *Application) handleRequest(url, method string) (int, string) {
 	if url == "/app/status" && method == "GET" {

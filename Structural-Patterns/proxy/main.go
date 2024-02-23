@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-
 	nginxServer := newNginxServer()
 	appStatusURL := "/app/status"
 	createuserURL := "/create/user"

@@ -1,7 +1,6 @@
 package main
 
-type Nike struct {
-}
+type Nike struct{}
 
 func (n *Nike) makeShoe() IShoe {
 	return &NikeShoe{
