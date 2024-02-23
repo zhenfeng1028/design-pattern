@@ -2,8 +2,7 @@ package main
 
 import "fmt"
 
-type Notification struct {
-}
+type Notification struct{}
 
 func (n *Notification) sendWalletCreditNotification() {
 	fmt.Println("Sending wallet credit notification")

@@ -10,7 +10,7 @@
 
 5. Go over the client code and replace all direct calls to the singleton’s constructor with calls to its static creation method.
 
-## Buidler
+## Builder
 
 1. Make sure that you can clearly define the common construction steps for building all available product representations. Otherwise, you won’t be able to proceed with implementing the pattern.
 
